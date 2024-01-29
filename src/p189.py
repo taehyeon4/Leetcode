@@ -27,7 +27,7 @@ class Solution:
         """
         k = k % len(nums)
         nums[: len(nums) - k] = reversed(nums[: len(nums) - k])
-        nums[-k:] = reversed(nums[-k:])
+        nums[len(nums) - k :] = reversed(nums[len(nums) - k :])
         nums.reverse()
 
 
