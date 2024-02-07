@@ -30,7 +30,7 @@ class Solution:
     def canCompleteCircuit_optimal(self, gas: List[int], cost: List[int]) -> int:
         """
         Source: https://leetcode.com/problems/gas-station/discuss/1706142/JavaC%2B%2BPython-An-explanation-that-ever-EXISTS-till-now!!!!
-        Time Complexity: O(N^2)
+        Time Complexity: O(N)
         Space complexity: O(1)
         """
         n, total_surplus, surplus, start = len(gas), 0, 0, 0
